@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0; 
+
+} /*zerar as margens */
+
+header, main, footer { 
+    width: 100%;
+}
+
+nav, article { 
+    height: 250px;
+    float:left;
+}
+
+header{ height: 100px; background-color: rgb(186, 194, 201); }
+
+nav { width: 20%;height: 200px; background-color:blue; }
+article { width: 80%; height: 200px; background-color: rgb(255, 0, 0);}
+
+footer{
+    background-color: yellow;
+    width: flex;
+    height: flex;
+}
+
+
